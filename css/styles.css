@@ -8,13 +8,20 @@ body {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     size: 3.5rem;
     line-height: 1.5;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 700;
 }
 
 h3 {
@@ -54,6 +61,8 @@ h3 {
 .title-img {
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
 }
 
 
@@ -61,6 +70,9 @@ h3 {
 
 #features {
     padding: 7% 12%;
+    position: relative;
+    background-color: #fff;
+    z-index: 1;
 }
 
 #features > div {
@@ -87,3 +99,87 @@ h3 {
     margin: 1rem auto;
 }
 
+
+/* testimonials*/
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding: 3%;
+}
+
+#press img {
+    width: 15%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.carousel-indicators {
+    bottom: -84px;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+  }
+
+.card-deck {
+    padding:5% 2%;
+}
+
+@media (max-width: 1000px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* CTA section*/
+
+#cta {
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+}
+
+#cta h3 {
+    margin-bottom: 50px;
+}
+
+#cta button{
+    margin:10px 10px;
+}
+
+
+/*footer*/
+#footer {
+    margin:5% auto;
+    text-align: center;
+}
+
+#footer i {
+    margin: 20px 10px;
+}
